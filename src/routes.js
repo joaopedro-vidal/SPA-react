@@ -1,9 +1,10 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Start from './Page/start'
 import AboutMe from './Page/aboutme'
-import Menu from "./Components";
+import Menu from "./Components/Menu";
 
-function App() {
+
+function AppRoutes() {
   return(
     <BrowserRouter>
       <Menu/>
@@ -19,4 +20,4 @@ function App() {
   )
 }
 
-export default App;
+export default AppRoutes;
